@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- ======= Start Google Tag Manager ======= -->
+
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
+
+  <!-- ======= End Google Tag Manager ======= -->
+
+  <script>
+    // Array of video sources
+const videoSources = [
+    "assets/img/background/1.mp4",
+    "assets/img/background/2.mp4",
+    "assets/img/background/3.mp4",
+    "assets/img/background/4.mp4"
+    // Add more video sources as needed
+];
+
+// Function to get a random video source
+function getRandomVideoSource() {
+    const randomIndex = Math.floor(Math.random() * videoSources.length);
+    return videoSources[randomIndex];
+}
+
+// Set the video source on page load
+window.onload = function() {
+    const videoElement = document.getElementById('background-video');
+    videoElement.src = getRandomVideoSource();
+};
+
+  </script>
+
+
+
+  <link rel="icon" type="image/png" href="assets/img/fav.png"/>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Cloud CV</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+
+  <!-- Google Fonts -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+
+
+  <!-- Vendor CSS Files -->
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+
+
+  <!-- Template Main CSS File -->
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-169007209-3');
+  </script>
+
+
+
+  <!-- =======================================================
+  * Template Name: Personal - v2.1.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+</head>
+
+
+
+<body>
+  
+  <!-- ======= Start Google Tag Manager (noscript) ======= -->
+
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+  <!-- ======= End Google Tag Manager (noscript) ======= -->
+
+
+  
+  <!--
+  <img class="background-image" src="assets/img/background/tunnel_slowmo.gif" />
+  -->
+  <video id="background-video" class="background-image" muted loop autoplay></video>
+
+  <!-- ======= Start Header ======= -->
+  
+  <header id="header" class="header-tops">
+    <div class="container">
+      <h1><a href="index.html">Vimal D</a></h1>
+      <h2 style="color:#fff">Cloud Resume challenge</h2>
+    <div class="counter-number">Views</div>
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header"><span>Home</span></a></li>
+          <li><a href="#about"> <span>About</span></a></li>
+          <li><a href="#education"> <span>Education</span></a></li>
+          <li><a href="#experience"> <span>Experience</span></a></li>
+          <li><a href="#projects"> <span>Projects</span></a></li>
+          <li><a href="#skills"> <span>Skills</span></a></li>
+          <li><a href="#cv"> <span>CV</span></a></li>
+        </ul>
+      </nav>
+      <div class="social-links">
+        <a href="mailto:2004.vimald@gmail.com" target="_blank" class="gmail"><i class="bx bx-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/vimald2004/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Vimal007Vimal" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://medium.com/@2004.vimald" target="_blank" class="youtube"><i class="bx bxl-medium"></i></a>
+        <a href="https://vimald.netlify.app/" target="_blank" class="youtube"><i class="bx bx-share-alt"></i></a>
+      </div>
+    </div>
+  </header>
+  
+  <!-- ======= End Header ======= -->
+
+
+
+  <!-- ======= Start About Section ======= -->
+
+  <section id="about" class="about">
+    <div class="about-me container">
+      <div class="section-title">
+        <h2>About Me</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/about/About me.png" class="img-fluid" alt="" style="width:10000000px; height:100000;">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <p>
+            Hi there, my name is Vimal.<br><br>
+            
+            Aspiring Cloud Technology and Information Security professional with a solid educational foundation and practical experience in cloud computing, network virtualization, and system administration. Currently pursuing a B.Sc in Cloud Technology and Information Security at Rathinam College of Arts and Science, I have developed a strong technical skill set through various certifications, projects, and internships.<br><br>
+            
+            I hold certifications from prestigious organizations such as Oracle, VMware, AWS, Google Cloud, IBM, and CISCO, demonstrating my expertise in cloud infrastructure, network virtualization, and security concepts. My practical knowledge extends to a wide range of operating systems including Linux, Ubuntu, CentOS, and Windows, as well as proficiency in programming languages like Python and Bash.<br><br>
+            My hands-on experience includes a recent internship at INNOVATE, focusing on cloud computing with Google Cloud, and participation in the E-Box Full Stack Bootcamp by Amphisoft Technologies. I have also undertaken several projects such as configuring Apache Web-Servers in Docker Containers using Ansible Playbook, deploying scalable two-tier applications on AWS, and developing a machine learning model for malicious URL detection with a 97.4% accuracy rate.<br><br>
+            In addition to my technical skills, I possess strong soft skills including team building, dedication, organizing, and leadership. I have actively participated in various hackathons, such as Encryptcon at IIT Madras and a Cyber Hackathon at Sri Krishna Arts & Science, showcasing my ability to apply my knowledge in competitive and collaborative environments.
+
+I am passionate about leveraging cloud technology and information security to solve complex problems and am eager to contribute to innovative projects in these fields.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ======= End About Section ======= -->
+
+
+
+  <!-- ======= Start Education Section ======= -->
+
+  <section id="education" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Education</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <a href="https://rathinamcollege.ac.in/" target="_blank"><img src="assets/img/education/rathinam.png" class="img-fluid" style="float:left;margin:0 10px 0 0;" width="90"></a>
+            <h4 style="text-align:left;"><a href="https://rathinamcollege.ac.in/" target="_blank" style="color:#12d640">Rathinam College of Arts and Science</a><br> </h4>
+            <h5 style="text-align:left;"><em>Bachelor of Science in Computer science; <strong>GPA: 7</strong></em></h5>
+            <span class="left" style="float:left;color:#fff;"><em>September 2022 - June 2025</em></span>
+            <span class="right" style="float:right;color:#fff;"><em>Coimbatore, India</em></span><br><br>
+            <h6 style="text-align:left;"><strong>Field of Specialization:</strong> Cloud Computing and Information Security</h6>
+            <h6 style="text-align:left;"><strong>Senior Design Project:</strong> SOON!!!</h6>
+            <h6 style="text-align:left;"><strong>Relevant Coursework:</strong></h6>
+            <ul style="columns:2;text-align:left;">
+              <li>Networking </li>
+              <li>Linux </li>
+              <li>Ethical hacking </li>
+              <li>Docker </li>
+              <li>Bash</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <a href="https://schools.org.in/palakkad/32060900747/ghss-bigbazar-palakkad.html" target="_blank"><img src="assets/img/education/bigbazzar.png" class="img-fluid" style="float:left;margin:0 10px 0 0;" width="90"></a>
+            <h4 style="text-align:left;"><a href="https://schools.org.in/palakkad/32060900747/ghss-bigbazar-palakkad.html" target="_blank" style="color:#12d640">GHSS BIGBAZAR SCHOOL</a><br> </h4>
+            <h5 style="text-align:left;"><em>GHSC; <strong>68%</strong></em></h5>
+            <span class="left" style="float:left;color:#fff;"><em>2020 - 2022</em></span>
+            <span class="right" style="float:right;color:#fff;"><em>palakkad, India</em></span><br><br>
+            <h6 style="text-align:left;"><strong>Relevant Coursework:</strong></h6>
+            <ul style="columns:2;text-align:left;">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>C</li>
+              <li>Computer Organization</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <a href="https://schools.org.in/palakkad/32061000904/phs-parli.html" target="_blank"><img src="assets/img/education/bigbazzar.png" class="img-fluid" style="float:left;margin:0 10px 0 0;" width="90"></a>
+            <h4 style="text-align:left;"><a href="https://schools.org.in/palakkad/32061000904/phs-parli.html" target="_blank" style="color:#12d640">PHS PARLI</a><br> </h4>
+            <h5 style="text-align:left;"><em>SSLC; <strong>90%</strong></em></h5>
+            <span class="left" style="float:left;color:#fff;"><em>2019 - 2020</em></span>
+            <span class="right" style="float:right;color:#fff;"><em>palakkad, India</em></span><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= End Education Section ======= -->
+
+
+
+  <!-- ======= Start Experience Section ======= -->
+
+  <section id="experience" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Experience</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <a href="https://innovateintern.com/" target="_blank"><img src="assets/img/experience/innovateintern_logo.png"
+                class="img-fluid" style="float:left;margin:0 10px 0 0;" width="90"></a>
+            <h4 style="text-align:left;"><a href="https://innovateintern.com/" target="_blank" style="color:#12d640">Internship at INNOVATE</a><br>
+            </h4>
+            <h5 style="text-align:left;"><em>Cloud Computing on Google Cloud</em></h5>
+            <span class="left" style="float:left;color:#fff;"><em>07-Jun-2024 to 21-Jun-2024.</em></span>
+            <span class="right" style="float:right;color:#fff;"><em>Work from home.</em></span><br><br>
+            <ul style="text-align:left;">
+              <li>
+                Effectively completed a 2-week internship 
+                in Cloud Computing on Google Cloud, spanning 
+                from 07-Jun-2024 to 21-Jun-2024.
+              </li>
+              <li>
+                The intern has satisfactorily completed and 
+                submitted a project titled "Secure Eventdriven Computing: Harnessing Google Cloud 
+                Functions for Enhanced Cybersecurity".
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <a href="http://semper-tech.com/" target="_blank"><img src="assets/img/experience/ebox.png" class="img-fluid" style="float:left;margin:0 10px 0 0;" width="50"></a>
+            <h4 style="text-align:left;"><a href="http://semper-tech.com/" target="_blank" style="color:#12d640">E-Box Full stack bootcamp</a><br>
+            </h4>
+            <h5 style="text-align:left;"><em></em></h5>
+            <span class="left" style="float:left;color:#fff;"><em>October 2023 Full-time</em></span>
+            <span class="right" style="float:right;color:#fff;"><em>Coimbatore, India</em></span><br><br>
+            <ul style="text-align:left;">
+              <li>
+                Full stack bootcamp conducted by E-Box at
+Amphisoft Technologies, Coimbatore
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= End Experience Section ======= -->
+
+
+
+  <!-- ======= Start Projects Section ======= -->
+
+  <section id="projects" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up" style="display:inline-block;">
+          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom:5px;display:inline-block;">
+            <a href="https://github.com/Vimal007Vimal/Serverless-Telegram-bot-using-Google-Cloud-Functions" target="_blank" rel="noreferrer"><img style="padding:5px 5px;" src="assets/img/projects/telegram.png" class="img-fluid" width="300" height="300"></a>
+            <a href="https://github.com/Vimal007Vimal/Serverless-Telegram-bot-using-Google-Cloud-Functions" target="_blank" rel="noreferrer"><h5 style="padding:5px 5px;color:#12d640"><strong>Serverless-Telegram-bot-using-Google-Cloud-Functions</strong></h5></a>
+            <p style="padding:0px 2px;color:#fff;">Deploying a serverless Telegram bot on Google Cloud Functions offers benefits like automatic scaling, no server management, and cost efficiency by paying only for function invocations.</p>
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom:5px;display:inline-block;">
+            <a href="https://github.com/Vimal007Vimal/AWS-1-tier-application" target="_blank" rel="noreferrer"><img style="padding:5px 5px;" src="assets/img/projects/1-tier.gif" class="img-fluid" width="324" height="324"></a>
+            <a href="https://github.com/Vimal007Vimal/AWS-1-tier-application" target="_blank" rel="noreferrer"><h5 style="padding:5px 5px;color:#12d640"><strong>AWS-1-tier-application</strong></h5></a>
+            <p style="padding:0px 2px;color:#fff;">Deploying a one tier application on AWS . This involves creating a VPC, subnets, security groups, EC2 instance.</p>
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom:5px;display:inline-block;">
+            <a href="https://github.com/Vimal007Vimal/my-portfolio" target="_blank" rel="noreferrer"><img style="padding:5px 5px;" src="assets\img\projects\port.jpg" class="img-fluid" width="324" height="324"></a>
+            <a href="https://github.com/Vimal007Vimal/my-portfolio" target="_blank" rel="noreferrer"><h5 style="padding:5px 5px;color:#12d640"><strong>my-portfolio</strong></h5></a>
+            <p style="padding:0px 2px;color:#fff;">This is my portfolio , it have GUI and CLI interface with theme Music</p>
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom:5px;display:inline-block;">
+            <a href="https://github.com/Vimal007Vimal/AWS-2-tier-application" target="_blank" rel="noreferrer"><img style="padding:5px 5px;" src="assets\img\projects\tier.jpg" class="img-fluid" width="324" height="324"></a>
+            <a href="https://github.com/Vimal007Vimal/AWS-2-tier-application" target="_blank" rel="noreferrer"><h5 style="padding:5px 5px;color:#12d640"><strong>AWS-2-tier-application</strong></h5></a>
+            <p style="padding:0px 2px;color:#fff;">A scalable two-tier application on AWS, including creating a VPC, subnets, security groups, an RDS database, EC2 instances, an Auto Scaling group, and configuring monitoring and notifications with CloudWatch and SNS.</p>
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom:5px;display:inline-block;">
+            <a href="https://github.com/Vimal007Vimal/linux_activity" target="_blank" rel="noreferrer"><img style="padding:5px 5px;" src="assets\img\projects\linux.jpg" class="img-fluid" width="324" height="324"></a>
+            <a href="https://github.com/Vimal007Vimal/linux_activity" target="_blank" rel="noreferrer"><h5 style="padding:5px 5px;color:#12d640"><strong>linux_activity</strong></h5></a>
+            <p style="padding:0px 2px;color:#fff;">This repository contains a Bash script designed to streamline configuration tasks on CentOS 7 systems. The script is intended to be executed in the root directory of the system. Before running the script, ensure that you have proper permissions and that you have made necessary changes to customize it according to your environment.</p>
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom:5px;display:inline-block;">
+            <a href="https://github.com/Vimal007Vimal/Malicious-URL-Detection" target="_blank" rel="noreferrer"><img style="padding:5px 5px;" src="assets\img\projects\URL.jpg" class="img-fluid" width="324" height="324"></a>
+            <a href="https://github.com/Vimal007Vimal/Malicious-URL-Detection" target="_blank" rel="noreferrer"><h5 style="padding:5px 5px;color:#12d640"><strong>Malicious-URL-Detection</strong></h5></a>
+            <p style="padding:0px 2px;color:#fff;">
+              Our project employs machine learning to pinpoint phishing URLs with 97.4% accuracy, leveraging HTTPS and website traffic as critical indicators. Insights into features like AnchorURL enhance cybersecurity strategies, showcasing the power of AI in combating online threats.</p>
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom:5px;display:inline-block;">
+            <a href="https://github.com/Vimal007Vimal/Apache-Docker-Container-Ansible-Playbook" target="_blank" rel="noreferrer"><img style="padding:5px 5px;" src="assets\img\projects\final.png" class="img-fluid" width="324" height="324"></a>
+            <a href="https://github.com/Vimal007Vimal/Apache-Docker-Container-Ansible-Playbook" target="_blank" rel="noreferrer"><h5 style="padding:5px 5px;color:#12d640"><strong>Apache-Docker-Container-Ansible-Playbook</strong></h5></a>
+            <p style="padding:0px 2px;color:#fff;">Configure Apache Web-Server in Docker Container using Ansible-Playbook .In this repo we gonna use one of the most popular DevOps tool i.e. Ansible. We gonna integrate Ansible with Docker to launch a Web-Server.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= End Projects Section ======= -->
+
+
+
+  <!-- ======= Start Skills Section ======= -->
+
+  <section id="skills" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <h4 style="text-align:left;color:#12d640;">Languages</h4>
+            <div style="text-align:left;">
+              
+              <figure class="item" style="display:inline-block;">
+                <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" /> </a>
+                <figcaption style="text-align:center;">Python</figcaption>
+              </figure>
+              &nbsp; &nbsp;
+            </div>
+          </div>
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <h4 style="text-align:left;color:#12d640;">Technologies</h4>
+            <div style="text-align:left;">
+
+              <figure class="item" style="display:inline-block;">
+                <a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40" /> </a>
+                <figcaption style="text-align:center;">Flask</figcaption>
+              </figure>
+              &nbsp; &nbsp;
+              
+              <figure class="item" style="display:inline-block;">
+                <a href="https://www.mysql.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" /> </a>
+                <figcaption style="text-align:center;">MySQL</figcaption>
+              </figure>
+              &nbsp; &nbsp;
+              
+              <figure class="item" style="display:inline-block;">
+                <a href="https://git-scm.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/git.svg" alt="git" width="40" height="40" /> </a>
+                <figcaption style="text-align:center;">Git</figcaption>
+              </figure>
+              &nbsp; &nbsp;
+              
+              <figure class="item" style="display:inline-block;">
+                <a href="https://www.docker.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" /> </a>
+                <figcaption style="text-align:center;">Docker</figcaption>
+              </figure>
+              &nbsp; &nbsp;
+
+              <figure class="item" style="display:inline-block;">
+                <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40" /> </a>
+                <figcaption style="text-align:center;">AWS</figcaption>
+              </figure>
+              &nbsp; &nbsp;
+
+              <figure class="item" style="display:inline-block;">
+                <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40" /> </a>
+                <figcaption style="text-align:center;">Kubernetes</figcaption>
+              </figure>
+              &nbsp; &nbsp;
+
+              <figure class="item" style="display:inline-block;">
+                <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40" /> </a>
+                <figcaption style="text-align:center;">GCP</figcaption>
+              </figure>
+              &nbsp; &nbsp;
+              
+              <figure class="item" style="display:inline-block;">
+                <a href="https://www.linux.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" /> </a>
+                <figcaption style="text-align:center;">Linux</figcaption>
+              </figure>
+              &nbsp; &nbsp;
+
+              <figure class="item" style="display:inline-block;">
+                <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40" /> </a>
+                <figcaption style="text-align:center;">Bash</figcaption>
+              </figure>
+              &nbsp; &nbsp;
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= End Skills Section ======= -->
+
+
+
+  <!-- ======= Start CV Section ======= -->
+
+  <section id="cv" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>CV</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://drive.google.com/file/d/1FL4VujNrjQSnLi4wJ-Jsrh9aG6uq3M3U/view?usp=drive_link" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
+          <h4 class="title"><a style="color:#12d640;" href="https://drive.google.com/file/d/1FL4VujNrjQSnLi4wJ-Jsrh9aG6uq3M3U/view?usp=drive_link" target="_blank">My Resume</a></h4>
+          <p class="description" style="color:#fff;">The above link contains my CV.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ======= End CV Section ======= -->
+
+  <!-- Vendor JS Files -->
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
