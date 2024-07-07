@@ -3,7 +3,7 @@ const counter = document.querySelector(".counter-number");
 async function updateCounter() {
   try {
     // Fetch the response from the given URL
-    let response = await fetch("https://zgqqad2f56nb3i64arcauhqpdi0ybswy.lambda-url.us-east-1.on.aws/");
+    let response = await fetch("your-lambda-link");
 
     // Check if the response is ok (status is in the range 200-299)
     if (!response.ok) {
