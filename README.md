@@ -46,6 +46,30 @@ C:.
 
 ![52](https://github.com/Vimal007Vimal/Cloud-Resume-Challenge/assets/144089192/43efb1ba-08c0-4b8d-a32c-7b451eb3b55d)
 
+Demo site<a href="https://cloudcvdemo.netlify.app/">![icons8-cloud-development-30](https://github.com/Vimal007Vimal/Cloud-Resume-Challenge/assets/144089192/b4cd1e48-5ab9-4fe1-a5ce-f22b85cac803)</a>
+
+###
+
 <h2>AWS</h2>
+
+<h4>Services used:</h4>
+<div align="left">    
+  <img src="https://skillicons.dev/icons?i=aws" height="40" alt="amazonwebservices logo"  />
+  <img src="https://icon.icepanel.io/AWS/svg/Database/RDS.svg" height="40" alt="amazonwebservices logo"  />
+  <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" height="40" alt="amazonwebservices logo"  />
+  <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2-Auto-Scaling.svg" height="40" alt="amazonwebservices logo"  />
+   <img src="https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Virtual-Private-Cloud.svg" height="40" alt="amazonwebservices logo"  />
+   <img src="https://icon.icepanel.io/AWS/svg/Management-Governance/CloudWatch.svg" height="40" alt="amazonwebservices logo"  />
+   <img src="https://icon.icepanel.io/AWS/svg/App-Integration/Simple-Notification-Service.svg" height="40" alt="amazonwebservices logo"  />
+</div>
+
+<h4>Architecture:</h4>
+
+![aws cloud  (1)](https://github.com/Vimal007Vimal/Cloud-Resume-Challenge/assets/144089192/ce03e787-253b-46d9-8728-bfe4c021ec3c)
+
+<h4>Cost:</h4>
+
+![54](https://github.com/Vimal007Vimal/Cloud-Resume-Challenge/assets/144089192/eeead3be-d5e2-4299-b60f-66a06ae9c829)
+
 
 <h2>Azure</h2>
