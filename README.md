@@ -1,5 +1,5 @@
 <h2>Cloud Resume Challenge</h2>
-<p>The Cloud Resume Challenge from <a href="https://cloudresumechallenge.dev/docs/the-challenge/">GT2</a> transforms traditional resumes by integrating cloud technologies, particularly:</p>
+<p>The Cloud Resume Challenge from <a href="https://cloudresumechallenge.dev/docs/the-challenge/">GT2</a> transforms traditional resumes by integrating cloud technologies, particularly</p>
 <ul>
     <li>AWS</li>
     <li>Azure</li>
@@ -55,12 +55,10 @@ Demo site<a href="https://cloudcvdemo.netlify.app/">![icons8-cloud-development-3
 <h4>Services used:</h4>
 <div align="left">    
   <img src="https://skillicons.dev/icons?i=aws" height="40" alt="amazonwebservices logo"  />
-  <img src="https://icon.icepanel.io/AWS/svg/Database/RDS.svg" height="40" alt="amazonwebservices logo"  />
-  <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" height="40" alt="amazonwebservices logo"  />
-  <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2-Auto-Scaling.svg" height="40" alt="amazonwebservices logo"  />
-   <img src="https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Virtual-Private-Cloud.svg" height="40" alt="amazonwebservices logo"  />
-   <img src="https://icon.icepanel.io/AWS/svg/Management-Governance/CloudWatch.svg" height="40" alt="amazonwebservices logo"  />
-   <img src="https://icon.icepanel.io/AWS/svg/App-Integration/Simple-Notification-Service.svg" height="40" alt="amazonwebservices logo"  />
+  <img src="https://icon.icepanel.io/AWS/svg/Storage/Simple-Storage-Service.svg" height="40" alt="amazonwebservices logo"  />
+  <img src="https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg" height="40" alt="amazonwebservices logo"  />
+  <img src="https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/CloudFront.svg" height="40" alt="amazonwebservices logo"  />
+   <img src="https://icon.icepanel.io/AWS/svg/Database/DynamoDB.svg" height="40" alt="amazonwebservices logo"  />
 </div>
 
 <h4>Architecture:</h4>
