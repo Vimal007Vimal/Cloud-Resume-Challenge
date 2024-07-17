@@ -51,6 +51,10 @@ Demo site<a href="https://cloudcvdemo.netlify.app/">![icons8-cloud-development-3
 ###
 
 <h2>AWS <img src="https://skillicons.dev/icons?i=aws" height="40" alt="amazonwebservices logo"  /> </h2>
+  for step by step procedure , checkout my blog -
+  <a href="https://medium.com/@2004.vimald/aws-cloud-resume-challenge-aa9a9618dca8" target="_blank">
+  <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="medium logo"  />
+  </a>
 
 <h4>Services used:</h4> <br>
 -  DynamoDB             <br>
