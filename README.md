@@ -50,16 +50,13 @@ Demo site<a href="https://cloudcvdemo.netlify.app/">![icons8-cloud-development-3
 
 ###
 
-<h2>AWS</h2>
+<h2>AWS <img src="https://skillicons.dev/icons?i=aws" height="40" alt="amazonwebservices logo"  /> </h2>
 
-<h4>Services used:</h4>
-<div align="left">    
-  <img src="https://skillicons.dev/icons?i=aws" height="40" alt="amazonwebservices logo"  />
-  <img src="https://icon.icepanel.io/AWS/svg/Storage/Simple-Storage-Service.svg" height="40" alt="amazonwebservices logo"  />
-  <img src="https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg" height="40" alt="amazonwebservices logo"  />
-  <img src="https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/CloudFront.svg" height="40" alt="amazonwebservices logo"  />
-   <img src="https://icon.icepanel.io/AWS/svg/Database/DynamoDB.svg" height="40" alt="amazonwebservices logo"  />
-</div>
+<h4>Services used:</h4> <br>
+-  DynamoDB             <br>
+-  Lambda function      <br>
+- CloudFront          <br>
+- Amazon S3         
 
 <h4>Architecture:</h4>
 
@@ -70,4 +67,19 @@ Demo site<a href="https://cloudcvdemo.netlify.app/">![icons8-cloud-development-3
 ![54](https://github.com/Vimal007Vimal/Cloud-Resume-Challenge/assets/144089192/eeead3be-d5e2-4299-b60f-66a06ae9c829)
 
 
-<h2>Azure</h2>
+<h2>Azure  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure logo"  /></h2>
+
+
+<h4>Services used:</h4> <br>
+- Azure Functions <br>
+- CosmosDB  <br>
+- Azure Storage  
+
+
+<h4>Architecture:</h4>
+
+![az cloud](https://github.com/user-attachments/assets/667dc23a-9e9c-4c3d-ad50-3b1dd8b9675c)
+
+<h4>Cost:</h4>
+
+![Az bug](https://github.com/user-attachments/assets/824f3572-231c-403f-b56c-9a99520310c9)
